@@ -11,6 +11,11 @@ module.exports = {
   },
   target: 'node',
   plugins: [
-    new Dotenv()
+    new Dotenv({
+      path: './.env',          // default
+      safe: false,             // true = use .env.example to validate
+      systemvars: false,       // true = also load system environment variables
+      allowEmptyValues: false  // true = allow empty env vars
+    })
   ],
 };

@@ -4,7 +4,7 @@ REST API built with `Node.js` and `Express`.
 
 # 🚀 Try It Live 🚀
 
-Coming soon
+Deployed on Render under https://be-restapi-nodejs.onrender.com/, verify by hiting endpoint [/feed/posts](https://be-restapi-nodejs.onrender.com/feed/posts)
 
 # Tech
 

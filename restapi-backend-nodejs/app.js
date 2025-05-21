@@ -34,7 +34,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect('mongodb+srv://DBNAME:DBPWD@cluster0.nqhevvt.mongodb.net/udemy_rest-api-fe-be?retryWrites=true&w=majority&appName=Cluster0')
+  .connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PW}@cluster0.nqhevvt.mongodb.net/udemy_rest-api-fe-be?retryWrites=true&w=majority&appName=Cluster0`)
   .then(result => {
     app.listen(8080);
   })

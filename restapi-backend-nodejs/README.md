@@ -17,3 +17,17 @@ Deployed on Render under https://be-restapi-nodejs.onrender.com/, verify by hiti
 2. `npm install`
 
 3. `npm start`
+
+### Environment Variables
+
+Your `.env` file should have:
+DB_USER=usernamehere
+DB_PW=passwordhere
+
+Your `nodemon.json` file shoud have:
+{
+"env": {
+"DB_USER":"usernamehere",
+"DB_PW":"passwordhere"
+}
+}

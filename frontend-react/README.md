@@ -15,3 +15,7 @@ This plugs into the Backend REST API project in the same repo c.f. sibling folde
 2. `npm install`
 
 3. `npm start`
+
+### Environment Variables
+
+Files `.env.development` and `.env.production` only have a public environment variable so they were pushed to github and require no additional setup.

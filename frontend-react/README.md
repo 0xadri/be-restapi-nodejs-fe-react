@@ -1,14 +1,12 @@
-# Frontend in React
+# Frontend in `React` - Blogging App
 
-This plugs into the REST API project in the same repo (sibling folder).
+This plugs into the Backend REST API project in the same repo c.f. sibling folder in root directory.
 
-# 🚀 Try It Live 🚀
-
-Coming soon
+# 🚀 [Try It Live](http://frontend-react-blogging-app.s3-website.eu-north-1.amazonaws.com/) 🚀
 
 # Tech
 
-`Javascript` · `ReactJS`· `Vite` · `NodeJS`
+`ReactJS`· `NodeJS` · `Javascript` · `Vite`
 
 ## Build
 

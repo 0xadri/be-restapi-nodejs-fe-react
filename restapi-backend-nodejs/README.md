@@ -1,6 +1,6 @@
-# Backend REST API in Node.js
+# Backend REST API in `Node` and `Express` - Blogging App
 
-REST API built with `Node.js` and `Express`.
+This gets consumed by the Frontend React project in the same repo c.f. sibling folder in root directory.
 
 # 🚀 Try It Live 🚀
 
